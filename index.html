@@ -12,9 +12,15 @@
 <body>
 
   <header>
-    <div class=" setting-header flex debug h100">
-      <div class="speaker-view debug">SPEAKER</div>
-      <div class="fullscreen debug">FULLSCREEN</div>
+    <div class="flex setting">
+      <div class="speaker-view debug">
+        <i class="fa-solid fa-table-cells-large">
+          <p>Speaker View</p>
+        </i>
+      </div>
+      <div class="fullscreen debug">
+        <i class="fa-solid fa-maximize"></i>
+      </div>
     </div>
   </header>
 
@@ -26,10 +32,108 @@
   </main>
 
   <footer>
-    <div class="menu-footer flex debug h100">
-      <div class="audio-video-coommand debug">A-V</div>
-      <div class="zoom-commands debug">COMMANDS</div>
-      <div class="meeting command debug">MEETING</div>
+    <div class="menu-footer flex h100">
+      <div class="av-commands flex">
+        <nav>
+          <ul class="flex">
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-microphone"></i>
+                <p>Mute</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-video"></i>
+                <p>Stop Video</p>
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="zoom-commands flex">
+        <nav>
+          <ul class="flex">
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-user-plus"></i>
+                <p>Invite</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-user-group"></i>
+                <p>Manage Partecipants</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+                <p>Polling</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-share-from-square"></i>
+                <p>Share Screen</p>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-chevron-up"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-comment"></i>
+                <p>Chat</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-record-vinyl"></i>
+                <p>Record</p>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-table-cells-large"></i>
+                <p>Breakout Rooms</p>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i><i class="fa-solid fa-ellipsis"></i></i>
+                <p>More</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="meeting-command flex">
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#">End Meeting</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
   </footer>
   
 </body>
