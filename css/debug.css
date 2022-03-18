@@ -1,0 +1,16 @@
+.debug {
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.h500 {
+  height: 500px;
+}

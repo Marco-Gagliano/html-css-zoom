@@ -4,3 +4,30 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
+/* HEADER */
+header {
+  
+}
+
+.speaker-view {
+  justify-content: flex-start;
+}
+
+.setting-header {
+  display: flex;
+
+}
+
+
+/* MAIN */
+
+
+/* FOOTER */
+
+.menu-footer {
+  justify-content: space-between;
+}
