@@ -1,3 +1,5 @@
+/* GENERAL PRESETS */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,25 +10,51 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.flex {
-  display: flex;
-}
-
 li {
   list-style: none;
 }
 
-/* HEADER */
-
-
-
-.header {
+.flex {
   display: flex;
 }
 
-.setting {
-  align-items: flex-end;
+.f-end-header {
+  justify-content: flex-end;
+  background-color: #000000;
 }
+
+/* GENERAL PRESETS */
+
+
+/* HEADER - SPEAKER VIEW-FULLSCREEN */
+
+
+.speaker {
+  position: relative;
+  margin-right: 15px;
+}
+
+.speaker i{
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  color: #FFFFFF;
+}
+   
+.speaker p, .fullscreen {
+background-color: #4A4A4A;
+border-radius: 5px;
+padding: 5px 10px 5px 28px;
+color: #FFFFFF;
+}
+
+.fullscreen {
+  
+  padding: 6px 10px 6px 10px;
+  right: 5px;
+}
+
+/* HEADER - /SPEAKER VIEW-FULLSCREEN */
 
 
 /* MAIN */
@@ -57,6 +85,11 @@ li {
   color: #FFFFFF;
 }
 
+.av-commands i {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
 /* FOOTER - ZOOM COMMANDS */
 
 .zoom-commands {
@@ -71,6 +104,15 @@ li {
 .zoom-commands a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.zoom-commands i {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.fa-chevron-up {
+  font-size: 14px;
 }
 
 /* FOOTER - MEETING COMMANDS */
