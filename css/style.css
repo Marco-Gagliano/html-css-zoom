@@ -39,51 +39,51 @@ li {
 /* HEADER - /SPEAKER VIEW-FULLSCREEN */
 
 
-/* MAIN */
+/* MAIN - VIDEOCHAT */
 
 .videochat {
-  height: calc(100% - 128px);
+  height: calc(100vh - 130px);
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  background-color: #000000;
+  overflow-y: auto;
 }
 
 .screen {
   position: relative;
-  width: 260px;
-  height: 250px;
+  width: 250px;
+  height: 200px;
   margin: 5px;
 }
 
 .screen img {
   width: 100%;
-  background-position: center;
-  background-size: cover;
+  height: 100%;
 }
 
 .screen span {
-  background-color: rgba(0, 0, 0, .5);
-  color: #FFFFFF;
-  padding: 3px 5px 3px 35px;
   position: absolute;
+  background-color: rgba(0, 0, 0, .7);
+  color: #FFFFFF;
+  padding: 5px 10px;
   bottom: 0;
   left: 0;
 }
 
-.screen i {
-  color: #FFFFFF;
-  position: absolute;
-  bottom: 5px;
-  left: 8px;
-
-}
+/* MAIN - /VIDEOCHAT */
 
 
 /* FOOTER */
 
 .menu-footer {
+  height: 80px;
+  display: flex;
   justify-content: space-between;
   background-color: #222222;
+}
+
+.av-commands, .zoom-commands, .meeting-command {
+  display: flex;
 }
 
 
