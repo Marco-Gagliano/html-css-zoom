@@ -14,46 +14,26 @@ li {
   list-style: none;
 }
 
-.flex {
-  display: flex;
-}
-
-.f-end-header {
-  justify-content: flex-end;
-  background-color: #000000;
-  height: 35px;
-}
-
-/* GENERAL PRESETS */
+/* /GENERAL PRESETS */
 
 
 /* HEADER - SPEAKER VIEW-FULLSCREEN */
 
-
-.speaker {
-  position: relative;
-  margin-right: 15px;
+.header-setting {
+  text-align: right;
+  background-color: #000000;
+  height: 50px;
 }
 
-.speaker i{
-  position: absolute;
-  top: 6px;
-  left: 5px;
-  color: #FFFFFF;
-}
-   
-.speaker p, .fullscreen {
+.speaker, .fullsize {
   background-color: #4A4A4A;
-  border-radius: 5px;
-  padding: 5px 10px 5px 28px;
   color: #FFFFFF;
-}
-
-.fullscreen i {
-  position: absolute;
-  right: 0;
-  padding: 6px 10px 6px 10px;
-  right: 5px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 7px 12px;
+  margin-top: 5px;
+  margin-right: 5px;
+  cursor: pointer;
 }
 
 /* HEADER - /SPEAKER VIEW-FULLSCREEN */
